@@ -1,0 +1,5 @@
+Запрос: "банан 150 грамм"
+Ответ: {"product": "банан", "amount": 150, "unit": "грамм", "nutrition": {"weight": 150, "cal": 134, "protein": 1.6, "fat": 0.5, "carbs": 34}}
+
+Запрос: "финики 50 грамм"
+Ответ: {"product": "финики", "amount": 50, "unit": "грамм", "nutrition": {"weight": 50, "cal": 142, "protein": 1.0, "fat": 0.2, "carbs": 38}}
