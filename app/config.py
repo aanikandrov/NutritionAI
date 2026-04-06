@@ -22,9 +22,9 @@ class Settings(BaseSettings):
 
     # Настройки ретривера
     retriever_enabled: bool = True
-    retriever_data_path: str = "data/products.json"
+    retriever_data_path: str = "../data/products.json"
     retriever_embedding_model: str = "all-MiniLM-L6-v2"
-    retriever_top_k: int = 3
+    retriever_top_k: int = 5
 
     class Config:
         env_file = ".env"

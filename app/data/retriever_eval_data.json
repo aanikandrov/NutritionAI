@@ -1,0 +1,207 @@
+[
+  {
+    "query": "яблоко",
+    "expected_product": "яблоко",
+    "expected_category": "фрукты"
+  },
+  {
+    "query": "банан",
+    "expected_product": "банан",
+    "expected_category": "фрукты"
+  },
+  {
+    "query": "апельсин",
+    "expected_product": "апельсин",
+    "expected_category": "фрукты"
+  },
+  {
+    "query": "грейпфрут",
+    "expected_product": "грейпфрут",
+    "expected_category": "фрукты"
+  },
+  {
+    "query": "груша",
+    "expected_product": "груша",
+    "expected_category": "фрукты"
+  },
+  {
+    "query": "киви",
+    "expected_product": "киви",
+    "expected_category": "фрукты"
+  },
+  {
+    "query": "курица",
+    "expected_product": "куриная грудка вареная",
+    "expected_category": "мясо"
+  },
+  {
+    "query": "индейка",
+    "expected_product": "индейка филе вареное",
+    "expected_category": "мясо"
+  },
+  {
+    "query": "говядина",
+    "expected_product": "говядина отварная",
+    "expected_category": "мясо"
+  },
+  {
+    "query": "рис",
+    "expected_product": "рис отварной",
+    "expected_category": "крупы"
+  },
+  {
+    "query": "гречка",
+    "expected_product": "гречка отварная",
+    "expected_category": "крупы"
+  },
+  {
+    "query": "макароны",
+    "expected_product": "макароны отварные",
+    "expected_category": "крупы"
+  },
+  {
+    "query": "творог",
+    "expected_product": "творог 5%",
+    "expected_category": "молочные"
+  },
+  {
+    "query": "сыр",
+    "expected_product": "сыр российский",
+    "expected_category": "молочные"
+  },
+  {
+    "query": "кефир",
+    "expected_product": "кефир 2.5%",
+    "expected_category": "молочные"
+  },
+  {
+    "query": "огурец",
+    "expected_product": "огурец",
+    "expected_category": "овощи"
+  },
+  {
+    "query": "помидор",
+    "expected_product": "помидор",
+    "expected_category": "овощи"
+  },
+  {
+    "query": "картошка",
+    "expected_product": "картофель отварной",
+    "expected_category": "овощи"
+  },
+  {
+    "query": "брокколи",
+    "expected_product": "брокколи отварная",
+    "expected_category": "овощи"
+  },
+  {
+    "query": "морковь",
+    "expected_product": "морковь",
+    "expected_category": "овощи"
+  },
+  {
+    "query": "лосось",
+    "expected_product": "лосось слабосоленый",
+    "expected_category": "рыба"
+  },
+  {
+    "query": "тунец",
+    "expected_product": "тунец консервированный",
+    "expected_category": "рыба"
+  },
+  {
+    "query": "сникерс",
+    "expected_product": "батончик сникерс",
+    "expected_category": "сладости"
+  },
+  {
+    "query": "алёнка",
+    "expected_product": "алёнка (шоколад молочный)",
+    "expected_category": "сладости"
+  },
+  {
+    "query": "шоколад горький",
+    "expected_product": "шоколад горький 70%",
+    "expected_category": "сладости"
+  },
+  {
+    "query": "мороженое",
+    "expected_product": "мороженое пломбир",
+    "expected_category": "сладости"
+  },
+  {
+    "query": "орех грецкий",
+    "expected_product": "грецкий орех",
+    "expected_category": "орехи"
+  },
+  {
+    "query": "миндаль",
+    "expected_product": "миндаль",
+    "expected_category": "орехи"
+  },
+  {
+    "query": "хлеб ржаной",
+    "expected_product": "хлеб ржаной",
+    "expected_category": "хлеб"
+  },
+  {
+    "query": "яйцо вареное",
+    "expected_product": "яйцо куриное вареное",
+    "expected_category": "яйца"
+  },
+  {
+    "query": "вода",
+    "expected_product": "вода",
+    "expected_category": "напитки"
+  },
+  {
+    "query": "чай",
+    "expected_product": "чай черный без сахара",
+    "expected_category": "напитки"
+  },
+  {
+    "query": "кофе",
+    "expected_product": "кофе без сахара",
+    "expected_category": "напитки"
+  },
+  {
+    "query": "сок апельсиновый",
+    "expected_product": "сок апельсиновый",
+    "expected_category": "напитки"
+  },
+  {
+    "query": "овсянка",
+    "expected_product": "овсяная каша",
+    "expected_category": "крупы"
+  },
+  {
+    "query": "свекла",
+    "expected_product": "свекла",
+    "expected_category": "овощи"
+  },
+  {
+    "query": "перец болгарский",
+    "expected_product": "перец болгарский",
+    "expected_category": "овощи"
+  },
+  {
+    "query": "кешью",
+    "expected_product": "кешью",
+    "expected_category": "орехи"
+  },
+  {
+    "query": "молоко",
+    "expected_product": "молоко 2.5%",
+    "expected_category": "молочные"
+  },
+  {
+    "query": "сметана",
+    "expected_product": "сметана 15%",
+    "expected_category": "молочные"
+  },
+  {
+    "query": "печенье",
+    "expected_product": "печенье овсяное",
+    "expected_category": "сладости"
+  }
+]
