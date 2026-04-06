@@ -1,0 +1,200 @@
+[
+  {
+    "name": "яблоко",
+    "category": "фрукты",
+    "weight": 100,
+    "cal": 52,
+    "protein": 0.3,
+    "fat": 0.2,
+    "carbs": 14
+  },
+  {
+    "name": "банан",
+    "category": "фрукты",
+    "weight": 100,
+    "cal": 89,
+    "protein": 1.1,
+    "fat": 0.3,
+    "carbs": 23
+  },
+  {
+    "name": "куриная грудка вареная",
+    "category": "мясо",
+    "weight": 100,
+    "cal": 165,
+    "protein": 31,
+    "fat": 3.6,
+    "carbs": 0
+  },
+  {
+    "name": "рис отварной",
+    "category": "крупы",
+    "weight": 100,
+    "cal": 130,
+    "protein": 2.7,
+    "fat": 0.3,
+    "carbs": 28
+  },
+  {
+    "name": "творог 5%",
+    "category": "молочные",
+    "weight": 100,
+    "cal": 121,
+    "protein": 17,
+    "fat": 5,
+    "carbs": 1.8
+  },
+  {
+    "name": "апельсин",
+    "category": "фрукты",
+    "weight": 100,
+    "cal": 47,
+    "protein": 0.9,
+    "fat": 0.1,
+    "carbs": 11.8
+  },
+  {
+    "name": "картофель отварной",
+    "category": "овощи",
+    "weight": 100,
+    "cal": 77,
+    "protein": 2,
+    "fat": 0.4,
+    "carbs": 17
+  },
+  {
+    "name": "лосось слабосоленый",
+    "category": "рыба",
+    "weight": 100,
+    "cal": 201,
+    "protein": 22,
+    "fat": 13,
+    "carbs": 0
+  },
+  {
+    "name": "гречка отварная",
+    "category": "крупы",
+    "weight": 100,
+    "cal": 110,
+    "protein": 4.2,
+    "fat": 1.1,
+    "carbs": 21
+  },
+  {
+    "name": "яйцо куриное вареное",
+    "category": "яйца",
+    "weight": 100,
+    "cal": 155,
+    "protein": 12.6,
+    "fat": 10.6,
+    "carbs": 1.1
+  },
+  {
+    "name": "сыр российский",
+    "category": "молочные",
+    "weight": 100,
+    "cal": 364,
+    "protein": 24,
+    "fat": 29,
+    "carbs": 0.5
+  },
+  {
+    "name": "огурец",
+    "category": "овощи",
+    "weight": 100,
+    "cal": 15,
+    "protein": 0.7,
+    "fat": 0.1,
+    "carbs": 2.5
+  },
+  {
+    "name": "помидор",
+    "category": "овощи",
+    "weight": 100,
+    "cal": 18,
+    "protein": 0.9,
+    "fat": 0.2,
+    "carbs": 3.9
+  },
+  {
+    "name": "хлеб ржаной",
+    "category": "хлеб",
+    "weight": 100,
+    "cal": 210,
+    "protein": 6.6,
+    "fat": 1.2,
+    "carbs": 42
+  },
+  {
+    "name": "макароны отварные",
+    "category": "крупы",
+    "weight": 100,
+    "cal": 131,
+    "protein": 4.5,
+    "fat": 1.1,
+    "carbs": 26
+  },
+  {
+    "name": "индейка филе вареное",
+    "category": "мясо",
+    "weight": 100,
+    "cal": 130,
+    "protein": 25,
+    "fat": 2.5,
+    "carbs": 0
+  },
+  {
+    "name": "миндаль",
+    "category": "орехи",
+    "weight": 100,
+    "cal": 579,
+    "protein": 21,
+    "fat": 50,
+    "carbs": 22
+  },
+  {
+    "name": "брокколи отварная",
+    "category": "овощи",
+    "weight": 100,
+    "cal": 35,
+    "protein": 2.4,
+    "fat": 0.4,
+    "carbs": 5.1
+  },
+  {
+    "name": "кефир 2.5%",
+    "category": "молочные",
+    "weight": 100,
+    "cal": 50,
+    "protein": 3,
+    "fat": 2.5,
+    "carbs": 4
+  },
+  {
+    "name": "грейпфрут",
+    "category": "фрукты",
+    "weight": 100,
+    "cal": 42,
+    "protein": 0.8,
+    "fat": 0.1,
+    "carbs": 9.6
+  },
+  {
+  "name": "батончик сникерс",
+  "category": "сладости",
+  "weight": 100,
+  "cal": 488,
+  "protein": 7.5,
+  "fat": 24,
+  "carbs": 61
+  },
+  {
+    "name": "алёнка (шоколад молочный)",
+    "category": "сладости",
+    "weight": 100,
+    "cal": 547,
+    "protein": 6.9,
+    "fat": 34.5,
+    "carbs": 51.2
+  }
+]

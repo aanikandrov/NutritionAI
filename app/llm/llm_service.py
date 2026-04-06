@@ -10,6 +10,7 @@ from openai.types.shared_params import ResponseFormatJSONSchema
 from openai.types.shared_params.response_format_json_schema import JSONSchema
 
 from app.config import get_settings
+from app.retriever.retriever import get_retriever
 from app.schemas.schemas import NutritionResponse
 
 logger = logging.getLogger(__name__)
@@ -37,12 +38,29 @@ def load_examples() -> str:
 PROMPT = load_prompt()
 EXAMPLES = load_examples()
 
-def create_prompt(user_query: str) -> str:
-    """ Создаёт промпт с подстановкой переменных """
-    return PROMPT.format(
+def create_prompt(user_query: str, context: str = "") -> str:
+    """ Создаёт промпт с подстановкой переменных и контекстом из ретривера """
+    base_prompt = PROMPT.format(
         examples=EXAMPLES,
         user_query=user_query
     )
+    if context:
+        return f"{context}\n\n{base_prompt}"
+    return base_prompt
+
+
+def format_retrieved_context(retrieved_products: list) -> str:
+    """ Форматирует результаты ретривера для вставки в промпт """
+    if not retrieved_products:
+        return ""
+
+    lines = ["Вот информация из базы данных о похожих продуктах (на 100 г):"]
+    for prod in retrieved_products:
+        lines.append(
+            f"- {prod['name']}: {prod['cal']} ккал, "
+            f"белки {prod['protein']} г, жиры {prod['fat']} г, углеводы {prod['carbs']} г"
+        )
+    return "\n".join(lines)
 
 def create_fallback_response(query_text: str) -> Dict[str, Any]:
     """ fallback-ответ при ошибках модели """
@@ -102,8 +120,16 @@ def validate_and_convert_types(llm_response: Dict[str, Any]) -> Dict[str, Any]:
 async def call_llm(query_text: str, temperature: float) -> Dict[str, Any]:
     """ Отправляет запрос к LLM и возвращает JSON """
     try:
-        # Создаем промпт
-        prompt = create_prompt(query_text)
+        context = ""
+        retriever = get_retriever()
+        if retriever and settings.retriever_enabled:
+            retrieved = retriever.retrieve(query_text)
+            context = format_retrieved_context(retrieved)
+            if context:
+                logger.info(f"Добавлен контекст из {len(retrieved)} продуктов")
+
+        # 2. Создаем промпт с контекстом
+        prompt = create_prompt(query_text, context)
 
         system_message = "Ты помощник, который всегда отвечает только валидным JSON без пояснений."
 
